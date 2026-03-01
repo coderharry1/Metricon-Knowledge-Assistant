@@ -339,6 +339,10 @@ Question 2: Where is the Risk Register Template stored?
 
 <img width="1448" height="623" alt="Screenshot 2026-03-02 at 8 22 27 AM" src="https://github.com/user-attachments/assets/8c070a94-e3b7-4c9f-b396-494ed06ac0e5" />
 
+User asks → agent finds the right document → explains it → and tells what to do next.
+That’s exactly the gap this solution is solving.
+
+This is not just search, it’s guided execution on top of enterprise knowledge.
 
 ## 🏆 Key Takeaway
 
