@@ -327,15 +327,34 @@ The impact is measurable across efficiency, risk mitigation, and overall organis
 ---
 ## Sample Questions to test
 
-Question 1: We are onboarding a cloud vendor that will store customer data and integrate with internal systems. What governance approvals, documentation, and contractual controls are required before signing?
+Question 1: What happens when an employee changes roles?
 
-<img width="1448" height="810" alt="Screenshot 2026-03-02 at 7 07 10 AM" src="https://github.com/user-attachments/assets/a4c85c2e-299b-4e71-a823-a4b5758bbdba" />
+<img width="1443" height="780" alt="Screenshot 2026-03-02 at 8 40 48 AM" src="https://github.com/user-attachments/assets/d3d55edd-3368-4759-87a5-d97995c64b33" />
 
-<img width="1440" height="736" alt="Screenshot 2026-03-02 at 7 17 14 AM" src="https://github.com/user-attachments/assets/0d0b2948-f798-4d6f-9236-82a0e27ce52c" />
+<img width="1436" height="750" alt="Screenshot 2026-03-02 at 8 41 21 AM" src="https://github.com/user-attachments/assets/a1104244-8fe1-4d06-9819-98a57d99c291" />
+
+What’s Happening (Simple Flow)
+
+User Question
+     ↓
+Copilot Agent
+     ↓
+Search SharePoint (Policies, Templates, Forms)
+     ↓
+Retrieve Relevant Documents
+     ↓
+LLM Interprets + Structures Response
+     ↓
+Output:
+- Direct Answer
+- Relevant Documents
+- Required Approvals
+- Next Steps
+
 
 Question 2: Where is the Risk Register Template stored?
 
-<img width="1448" height="623" alt="Screenshot 2026-03-02 at 8 22 27 AM" src="https://github.com/user-attachments/assets/d82ab9db-927d-496e-849d-8eaaa63db6cd" />
+<img width="1448" height="623" alt="Screenshot 2026-03-02 at 8 22 27 AM" src="https://github.com/user-attachments/assets/8c070a94-e3b7-4c9f-b396-494ed06ac0e5" />
 
 
 ## 🏆 Key Takeaway
