@@ -90,31 +90,67 @@ flowchart TD
 
 ---
 
-### Architecture Components
+## 🏗️ Architecture Components
 
-#### Interface Layer
+The solution is designed as a **layered, enterprise-grade architecture** leveraging Microsoft’s native ecosystem to ensure scalability, security, and maintainability without custom code.
 
-* Microsoft Teams
+---
 
-#### AI / Agent Layer
+### 🧑‍💻 Interface Layer
 
-* Microsoft Copilot Studio
-* GPT-4.1 Model
+**Microsoft Teams**
 
-#### Knowledge Layer
+- Primary interaction channel for end users  
+- Enables natural language queries within existing workflows  
+- Eliminates context switching by embedding the assistant directly into daily operations  
 
-* SharePoint Online
+---
 
-  * ApprovedPolicies
-  * Risk Templates
-  * Vendor Templates
-  * Access Forms
-  * Brand Guidelines
+### 🤖 AI / Agent Layer
 
-#### Security Layer
+**Microsoft Copilot Studio · GPT-4.1**
 
-* Microsoft Entra ID
-* Role-Based Access Control (RBAC)
+- Orchestrates user queries and response generation  
+- Performs grounded retrieval from enterprise knowledge sources  
+- Translates unstructured policy content into structured, actionable guidance  
+- Ensures consistent response formatting aligned with governance requirements  
+
+---
+
+### 📂 Knowledge Layer
+
+**SharePoint Online (Single Source of Truth)**
+
+Centralized repository for all governance artifacts:
+
+- **ApprovedPolicies** → Official governance policies and standards  
+- **Risk Templates** → Risk registers and assessment frameworks  
+- **Vendor Templates** → Vendor onboarding and risk evaluation artifacts  
+- **Access Forms** → Access request and modification workflows  
+- **Brand Guidelines** → Supporting documentation for enterprise standards  
+
+> All responses are strictly grounded in SharePoint content to ensure accuracy and eliminate hallucination risk.
+
+---
+
+### 🔐 Security Layer
+
+**Microsoft Entra ID · Role-Based Access Control (RBAC)**
+
+- Enforces authentication and authorization  
+- Ensures users can only access content they are permitted to view  
+- Inherits SharePoint permissions for seamless access control  
+- Maintains enterprise-grade data security and compliance boundaries  
+
+---
+
+### 🎯 Architectural Principles
+
+- **Microsoft-native** → Seamless integration with enterprise ecosystem  
+- **No-code / low-code** → Rapid deployment and minimal maintenance overhead  
+- **Grounded AI** → Responses strictly based on approved enterprise data  
+- **Secure by design** → Built on existing identity and access controls  
+- **Scalable** → Easily extendable with workflows, automation, and analytics  
 
 ---
 ## ⚙️ Tech Stack
