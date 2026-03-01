@@ -333,24 +333,7 @@ Question 1: What happens when an employee changes roles?
 
 <img width="1436" height="750" alt="Screenshot 2026-03-02 at 8 41 21 AM" src="https://github.com/user-attachments/assets/a1104244-8fe1-4d06-9819-98a57d99c291" />
 
-What’s Happening (Simple Flow)
-
-User Question
-     ↓
-Copilot Agent
-     ↓
-Search SharePoint (Policies, Templates, Forms)
-     ↓
-Retrieve Relevant Documents
-     ↓
-LLM Interprets + Structures Response
-     ↓
-Output:
-- Direct Answer
-- Relevant Documents
-- Required Approvals
-- Next Steps
-
+Output Explanation: Search → Retrieve → Interpret → Guide
 
 Question 2: Where is the Risk Register Template stored?
 
